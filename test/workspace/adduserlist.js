@@ -31,7 +31,7 @@ var adduser = function(i) {
 	if (lgn && lgn.length > 0) {
 		var createuser = function(lgn, plain_pwd, email, classv) {
 			var pwd = crypto.createHash('sha1').update(plain_pwd).digest('hex');
-/*
+
 			var cmd = 'INSERT INTO users (lgn, pwd, email, class) VALUES (?, ?, ?, ?)';
 			connection.query(cmd, [lgn, pwd, email, classv], function(err, result) {
 				if (err) {
@@ -41,9 +41,9 @@ var adduser = function(i) {
 				}
 				adduser(i+1);
 			});
-*/
-			console.log('[INFO] ' + lgn);
 
+			console.log('[INFO] ' + lgn);
+/*
 			var cmd = 'UPDATE users SET pwd = ?, class = ? WHERE lgn = ?';
 			connection.query(cmd, [pwd, classv, lgn], function(err, result) {
 				if (err) {
@@ -53,6 +53,7 @@ var adduser = function(i) {
 				}
 				adduser(i+1);
 			});
+*/
 		};
 		createuser(lgn, plain_pwd, email, classv);
 	}
