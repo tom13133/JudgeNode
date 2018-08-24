@@ -1,0 +1,50 @@
+# order is important, don't change or alternate, otherwise please change all testdata/xxx/judge
+# lang: ['*', 'C', 'C++', 'C# 3.0', 'Python 3', 'Scala 2']
+# compiler: [, 'g++ -std=c++98 -O2', 'mcs -langversion:3', 'python3', 'scalac -optimise'],
+# WT: 0, CE: 1, OLE: 2, MLE: 3, RE: 4, TLE: 5, WA: 6, AC: 7, SAVING: 8, PE: -1,
+JUDGE:
+    path: '/home/nctuece/Desktop/judgegirl/'
+    testdata:
+        path: '/home/nctuece/Desktop/judgegirl/testdata/'
+    lang: ['*', 'C']
+    compiler_arg: ['none', 'gcc -std=c99 -O2']
+    result_message: ['Waiting', 'Compilation Error', 'Output Limit Exceeded', 'Memory Limit Exceeded', 'Runtime Error', 'Time Limit Exceeded', 'Wrong Answer', 'Accepted', 'Uploading...', 'Presentation Error']
+
+# JUDGE_PATH/submission /testdata /source
+# JUDGE_PATH: /home/c2014/judgesister/
+
+# MODE: limits user open previous source code & submit problem which not in contest.
+CONTEST:
+    MODE: false
+    SUBMIT_LIMIT: 15
+    VALID_IP: ["::ffff:140.112.16.155", "::ffff:140.112.16.156", "::ffff:140.112.16.158", "::1"]
+
+# DATABASE Setting, MySQL
+DATABASE:
+    host: '127.0.0.1'
+    user: 'c2018'
+    password: 'jgl2018'
+    port: '3306'
+    database: 'c2018'
+
+# WEBSITE API HOST
+HOST:
+    TITLE: 'Judge Girl'
+    IP: '127.0.0.1'
+    root: '/'
+    testdata: 'https://github.com/JudgeGirl/JG-testdata/blob/master/practice/'
+    social:
+        youtube: 'https://www.youtube.com/playlist?list=PLOvZ8aEg7xDkpKHk3hAwQxLAlpZ1Q3wKH'
+        github: 'https://github.com/pangfengliu/programmingtasks/issues'
+        facebook: 'https://www.facebook.com/%E6%89%B9%E6%94%B9%E5%A8%98%E7%B2%89%E7%B5%B2%E5%9C%98-257246016760/timeline/'
+        googlesite: 'https://sites.google.com/site/ntucsiec2015/announcement'
+    footer:
+        text: 'What do you want to do ?'
+        license: 'Instructor <a title="王傑智" href="/">Bob Wang</a>, TA: <a title="黃紹華" href="kmst56595.eed03@g2.nctu.edu.tw">Adam</a>, <a title="薛宇涵" href="zero000.eed03@g2.nctu.edu.tw">Tom</a>, <a title="方建承" href="a6601zxf@gmail.com">Alton</a> Web designer <a title="許祐程" href="/">Akira</a>, <a title="王盛平" href="/">Peer4321</a>, <a title="曹又霖" href="https://github.com/sinmaplewing">Maplewing</a>, <a title="楊翔雲" href="https://github.com/morris821028">Morris</a>'
+# Disqus
+Disqus:
+    shortname: 'nctucprogramming'
+
+# Privilege
+Privilege:
+    register_key: 'test'

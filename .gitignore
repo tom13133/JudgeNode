@@ -3,7 +3,7 @@ node_modules
 bower_components
 
 # server configuration
-_config.yml
+# _config.yml
 
 # debug information
 *.log
