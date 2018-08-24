@@ -94,10 +94,10 @@
 	"Subtask": "Subtask",
 	"Judge Girl": "批改娘",
 	"Recent Submission": "Recent Submission",
-	"My Progress": "My Progress",
-	"My Score": "My Score",
-	"Lang": "Lang",
-	"Theme": "Theme",
+	"My Progress": "我的進度",
+	"My Score": "我的成績",
+	"Lang": "語言",
+	"Theme": "主題",
 	"Default": "Default",
 	"Dark": "Dark",
 	"Domain": "Domain",
@@ -132,5 +132,7 @@
 	"Retype your password": "Retype your password",
 	"Email": "Email",
 	"Registration Key": "Registration Key",
-	"How do I get a registration key ?": "How do I get a registration key ?"
+	"How do I get a registration key ?": "How do I get a registration key ?",
+	"ECE 1C": "電機1C",
+	"Contest comming soon.": "Contest comming soon."
 }
