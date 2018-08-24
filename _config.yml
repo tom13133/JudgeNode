@@ -3,9 +3,9 @@
 # compiler: [, 'g++ -std=c++98 -O2', 'mcs -langversion:3', 'python3', 'scalac -optimise'],
 # WT: 0, CE: 1, OLE: 2, MLE: 3, RE: 4, TLE: 5, WA: 6, AC: 7, SAVING: 8, PE: -1,
 JUDGE:
-    path: '/home/nctuece/Desktop/judgegirl/'
+    path: '/home/judgesister/'
     testdata:
-        path: '/home/nctuece/Desktop/judgegirl/testdata/'
+        path: '/home/judgesister/testdata/'
     lang: ['*', 'C']
     compiler_arg: ['none', 'gcc -std=c99 -O2']
     result_message: ['Waiting', 'Compilation Error', 'Output Limit Exceeded', 'Memory Limit Exceeded', 'Runtime Error', 'Time Limit Exceeded', 'Wrong Answer', 'Accepted', 'Uploading...', 'Presentation Error']
@@ -32,7 +32,7 @@ HOST:
     TITLE: 'Judge Girl'
     IP: '127.0.0.1'
     root: '/'
-    testdata: 'https://github.com/JudgeGirl/JG-testdata/blob/master/practice/'
+    testdata: '/downloads/testdata/'
     social:
         youtube: 'https://www.youtube.com/playlist?list=PLOvZ8aEg7xDkpKHk3hAwQxLAlpZ1Q3wKH'
         github: 'https://github.com/pangfengliu/programmingtasks/issues'
