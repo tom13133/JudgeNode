@@ -44,17 +44,22 @@ LAppLive2DManager.prototype.changeModel = function(gl)
                 this.createModel();
                 this.models[0].load(gl, LAppDefine.MODEL_HARU);
                 break;
-            case 1: // しずく
+            /*case 1: // しずく
                 this.releaseModel(0, gl);
                 this.createModel();
                 this.models[0].load(gl, LAppDefine.MODEL_SHIZUKU);
                 break;
-            case 2: // わんこ
+            case 1:
+                this.releaseModel(0, gl);
+                this.createModel();
+                this.models[0].load(gl, LAppDefine.MODEL_TORORO);
+                break;*/
+            case 1: // わんこ
                 this.releaseModel(0, gl);
                 this.createModel();
                 this.models[0].load(gl, LAppDefine.MODEL_WANKO);            
                 break;
-            case 3: // 複数モデル
+            case 2: // 複数モデル
                 this.releaseModel(0, gl);
                 
                 // 一体目のモデル
