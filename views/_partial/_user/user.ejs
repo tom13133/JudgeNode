@@ -15,10 +15,10 @@
 				<h3><% if (userinfo.info.class == null || userinfo.info.class == '') { %>
 				<%= __('Administrator') %>
 			<% } else { %>
-				<% if (userinfo.info.class <= 2) { %>
-					<%= __('Class {{number}}', {number: userinfo.info.class}) %>
-				<% } else if (userinfo.info.class <= 4) { %>
-					<%= __('Visitor Class {{number}}', {number: userinfo.info.class-2}) %>
+				<% if (userinfo.info.class == 1) { %>
+					<%= __('ECE 1C') %>
+				<% } else if (userinfo.info.class == 2) { %>
+					<%= __('Visitor') %>
 				<% } else { %>
 					<%= __('Strong') %>
 				<% } %>
