@@ -15,9 +15,9 @@ JUDGE:
 
 # MODE: limits user open previous source code & submit problem which not in contest.
 CONTEST:
-    MODE: false
+    MODE: true 
     SUBMIT_LIMIT: 15
-    VALID_IP: ["::ffff:111.243.153.82", "::ffff:140.112.16.156", "::ffff:140.112.16.158", "::1"]
+    VALID_IP: ["::ffff:140.113.146.120", "::ffff:140.113.146.121", "::ffff:140.113.146.122", "::ffff:140.113.146.123", "::ffff:140.113.146.124", "::ffff:140.113.146.125", "::ffff:140.113.146.126", "::ffff:140.113.146.127", "::ffff:140.113.146.128", "::ffff:140.113.146.129", "::ffff:140.113.146.130", "::ffff:140.113.146.131", "::ffff:140.113.146.132", "::ffff:140.113.146.133", "::ffff:140.113.146.134", "::ffff:140.113.146.135", "::ffff:140.113.146.136", "::ffff:140.113.146.137", "::ffff:140.113.146.138", "::ffff:140.113.146.139", "::ffff:140.113.146.140", "::ffff:140.113.146.141", "::ffff:140.113.146.142", "::ffff:140.113.146.143", "::ffff:140.113.146.144", "::ffff:140.113.146.145", "::ffff:140.113.146.146", "::ffff:140.113.146.147", "::ffff:140.113.146.148", "::ffff:140.113.146.149", "::ffff:140.113.146.150", "::ffff:140.113.146.151", "::ffff:140.113.146.152", "::ffff:140.113.146.153", "::ffff:140.113.146.154", "::ffff:140.113.146.155", "::ffff:140.113.146.156", "::ffff:140.113.146.157", "::ffff:140.113.146.158", "::ffff:140.113.146.159", "::ffff:140.113.146.160", "::ffff:140.113.146.161", "::ffff:140.113.146.162", "::ffff:140.113.146.163", "::ffff:140.113.146.164", "::ffff:140.113.146.165", "::ffff:140.113.146.166", "::ffff:140.113.146.167", "::ffff:140.113.146.168", "::ffff:140.113.146.169", "::ffff:140.113.146.170", "::ffff:140.113.146.171", "::ffff:140.113.146.172", "::ffff:140.113.146.173", "::ffff:140.113.146.174", "::ffff:140.113.146.175", "::ffff:140.113.146.176", "::ffff:140.113.146.177", "::ffff:140.113.146.178", "::ffff:140.113.146.179", "::ffff:140.113.146.180", "::ffff:140.113.146.181", "::ffff:140.113.146.182", "::ffff:140.113.146.183", "::ffff:140.113.146.184", "::ffff:140.113.146.185", "::ffff:140.113.146.186", "::ffff:140.113.146.187", "::ffff:140.113.146.188", "::ffff:140.113.146.189", "::ffff:140.113.146.190", "::ffff:140.113.146.191", "::ffff:140.113.146.192", "::ffff:140.113.146.193", "::ffff:140.113.146.194", "::ffff:140.113.146.195", "::ffff:140.113.146.196", "::ffff:140.113.146.197", "::ffff:140.113.146.198", "::ffff:140.113.146.199"]
 
 # DATABASE Setting, MySQL
 DATABASE:
@@ -40,7 +40,7 @@ HOST:
         googlesite: 'https://sites.google.com/site/ntucsiec2015/announcement'
     footer:
         text: 'What do you want to do ?'
-        license: 'Instructor <a title="王傑智" href="/">Bob Wang</a>, TA: <a title="黃紹華" href="kmst56595.eed03@g2.nctu.edu.tw">Adam</a>, <a title="薛宇涵" href="zero000.eed03@g2.nctu.edu.tw">Tom</a>, <a title="方建承" href="a6601zxf@gmail.com">Alton</a> Web designer <a title="許祐程" href="/">Akira</a>, <a title="王盛平" href="/">Peer4321</a>, <a title="曹又霖" href="https://github.com/sinmaplewing">Maplewing</a>, <a title="楊翔雲" href="https://github.com/morris821028">Morris</a>'
+        license: 'Instructor <a title="王傑智" href="/">Bob Wang</a>, TA: <a title="黃紹華" href="/">Adam</a>, <a title="薛宇涵" href="/">Tom</a>, <a title="方建承" href="/">Alton</a> Web designer <a title="許祐程" href="/">Akira</a>, <a title="王盛平" href="/">Peer4321</a>, <a title="曹又霖" href="https://github.com/sinmaplewing">Maplewing</a>, <a title="楊翔雲" href="https://github.com/morris821028">Morris</a>'
 # Disqus
 Disqus:
     shortname: 'nctucprogramming'
