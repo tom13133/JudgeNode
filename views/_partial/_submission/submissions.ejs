@@ -28,7 +28,7 @@
 	}
 %>
 <div class="header">
-	<h1 class='article-title'  data-step="17" data-intro="<p>可以看到其他使用者的情況</p> <p>唯有獲得 <span style='color: #00AA00; font-weight: bold;'>Accepted</span> 後，才能查閱其他人的程式碼，考試期間此功能不開放。</p>"><%- __('Submission') %></h1>
+	<h1 class='article-title'  data-step="15" data-intro="<p>可以看到其他使用者的情況</p> <p>唯有獲得 <span style='color: #00AA00; font-weight: bold;'>Accepted</span> 後，才能查閱其他人的程式碼，考試期間此功能不開放。</p>"><%- __('Submission') %></h1>
     <h2><%- __('Update page each 60 seconds') %></h2>
 </div>
 <div class="content">
@@ -63,7 +63,7 @@
 <script type="text/javascript">
   if (RegExp('multipage', 'gi').test(window.location.search)) {
     var tour = introJs().setOption('doneLabel', 'Next page');
-    tour.goToStepNumber(17);
+    tour.goToStepNumber(15);
     tour.setOption('tooltipPosition', 'auto');
     tour.start().oncomplete(function() {
       window.location.href = '/contests?multipage=true';
